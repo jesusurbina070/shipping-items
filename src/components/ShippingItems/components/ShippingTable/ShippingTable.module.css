@@ -1,0 +1,150 @@
+.ShippingTable{
+    margin: 1rem 1.6rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 1rem;
+    
+}
+.header{
+    display: flex;
+    padding: .8rem 1rem;
+    justify-content: space-between;
+
+}
+.header__title{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.header__form{
+ display: flex;
+ gap: 1rem;
+}
+.header__searh{
+    display: flex;
+    align-items: center;
+    border: 1px solid #e0e0e0;
+    border-radius: 1rem;
+    
+}
+.header__searhInput{
+    font-size: 14px;
+    width: 220px;
+}
+.header__dropdown{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #f8f8f8;
+    border-radius: 1rem;
+}
+.header__dropdownText{
+    font-size: 13px;
+    font-weight: 600;
+
+}
+
+
+
+.table{
+    width: 100%;
+    text-align: left;
+    padding: 0 1rem;
+
+}
+.table__row{
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+}
+.table__head{
+    font-size: 13px;
+    /* border-top: 1px solid #e6e6e6; */
+    padding: .5rem 1rem;
+}
+
+.table__body{
+    font-size: 13px;
+    padding: 1rem 1rem;
+}
+.table__checkbox{
+    display: inline;
+    margin-right: 5px;
+}
+.table__status{
+    padding: .3rem;
+    border-radius: 1rem;
+    background-color: #fafce0;
+}
+
+.table__img{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+
+
+.footerTable{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+}
+.footerTable__pages{
+    font-weight: 600;
+
+}
+
+.footerTable__containerButtons{
+    display: flex;
+    gap: 2px;
+}
+.footerTable__ul{
+    display: flex;
+    gap: 10px;
+}
+.footerTable__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: 1px solid #e0e0e0;
+}
+
+.footerTable__button_active{
+    background-color: #623aeb;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+
+.footerTable__longButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 2rem;
+    border-radius: 1rem;
+    border: 1px solid #e0e0e0;
+    font-size: 20px;
+}
+
+.footerTable__buttonArrow_active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: #e0e0e0;
+}
+

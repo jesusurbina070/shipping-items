@@ -1,0 +1,44 @@
+.HeadShipping {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.4rem 1.5rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #e6e6e6;
+}
+.HeadShipping__title {
+  font-size: 20px;
+  font-weight: bold;
+}
+.HeadShipping__buttonsContainer {
+  display: flex;
+  gap: 1.3rem;
+  align-items: center;
+}
+.HeadShipping__button_first {
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+  padding: .7rem .9rem;
+  border: 1px solid #e6e6e6;
+  font-weight: 600;
+  border-radius: 2.5rem ;
+  font-size: 13px;
+}
+
+.HeadShipping__button_second {
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    background-color: #623aeb;
+    color: #fff;
+    padding: .7rem .9rem;
+    font-weight: 600;
+    border-radius: 2.5rem;
+    font-size: 13px;
+  }
+
+
+
+
+
+

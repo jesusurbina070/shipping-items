@@ -1,0 +1,34 @@
+.Menu {
+  margin: 1rem;
+  color: #6b6b6b;
+}
+.Menu__title {
+    font-size: 12px;
+    font-weight: 600;
+}
+.Menu__ul {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.Menu__li {
+  font-size: 13px;
+  font-weight: 500;
+}
+.Menu__a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.Menu__a__active {
+  color: #623aeb;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 500;
+}
